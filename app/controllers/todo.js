@@ -1,4 +1,4 @@
-// home controller
+ // home controller
 app.controller('todoController',function($scope,toastr,$location,todoService,$sessionStorage,$stateParams){
 
 	var todoID = $stateParams.id;
